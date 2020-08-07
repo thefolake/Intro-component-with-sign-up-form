@@ -156,6 +156,10 @@ form {
         
     }
 
+    .left_container {
+        margin-top: 150px;
+    }
+
     .left_container p {
         font-size: 15px;
     } 
@@ -169,4 +173,26 @@ form {
     }
 }
 
+@media screen and (max-width: 500px) {
+    body {
+        margin: 0 30px;
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .left_container {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    body {
+        margin: 0 10px;
+        padding: 0;
+    }
+}
 
