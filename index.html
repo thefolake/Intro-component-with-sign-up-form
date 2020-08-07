@@ -22,29 +22,28 @@
             </div>
             <form>
                 <div class="input-wrapper">
-                    <input type="text" placeholder="First Name" id='first-name'/>
+                    <input type="text" placeholder="First Name" id='first-name' aria-label="First Name"/>
                     <span id="first-name-error-msg" class="error-msg hidden">First Name cannot be empty</span>
                 </div>
                 
                 <div class="input-wrapper">
-                    <input type="text" placeholder="Last Name" id='last-name'/>
+                    <input type="text" placeholder="Last Name" id='last-name' aria-label="Last Name"/>
                     <span id="last-name-error-msg" class="error-msg hidden">Last Name cannot be empty</span>
                 </div>
                 
                 <div class="input-wrapper">
-                    <input type="email" placeholder="Email Address" id='email'/>
+                    <input type="email" placeholder="Email Address" id='email' aria-label="Email Address"/>
                     <span id="email-error-msg" class="error-msg hidden">Looks like this is not an email</span>
                 </div>
                 
                 <div class="input-wrapper">
-                    <input type='password' placeholder="Password" id='password'/>
+                    <input type='password' placeholder="Password" id='password' aria-label="Password"/>
                     <span id='password-error-msg' class="error-msg hidden">Password cannot be empty</span>
                 </div>
                 
                 <button type="button" class="submit-btn" onclick="validateInput()">Claim your free trial</button>
                 <p class="info-terms" class="error-msg">By clicking this button, you are agreeing to our <span>Terms and Services</span></p>
             </form>
-            <!-- <button class="submit-btn" onclick="validateInput()">Claim your free trial</button> -->
         </div>
     </div>
     
@@ -52,3 +51,5 @@
     </script>
 </body>
 </html>
+
+<!-- FIX ACCESSIBILITY ISSUES -->
