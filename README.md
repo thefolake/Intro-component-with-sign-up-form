@@ -1,1 +1,1 @@
-# Intro-component-with-sign-up-form
+# Sign Up Form with JS Validation
